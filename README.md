@@ -10,5 +10,10 @@ sudo service mongodb start
 sudo service mongodb stop
 
 ### DB service (mac):
-brew services start mongodb-community@5.0
-brew services stop mongodb-community@5.0
+brew services start mongodb-community@4.4
+brew services stop mongodb-community@4.4
+
+### Delete all your orders
+mongo
+use onlinestorech20
+db.order.remove({})

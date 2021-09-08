@@ -11,7 +11,7 @@ class Student:
 
 
 
-
+this.setState({ count: this.state.count})
 
 
 
